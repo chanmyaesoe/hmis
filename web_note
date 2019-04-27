@@ -1,0 +1,37 @@
+Abstract - 
+
+Web applications run through web browsers like Google Chrome. The program runs on a web server or local server for traditional applications.Web application pages interact and respond with users requests. The most common example is online shopping application.
+A web-based application is any application that uses a website as the interface or front-end. Users can easily access the application from any computer connected to the Internet using a standard browser.The web application itself needs only be developed for a single  system like our paper, HMIS.Web systems are accessible anytime, anywhere and via any PC with an Internet connection. This puts the user firmly in charge of where and when they access the application.Therefore, there is no longer any need for everyone to settle for using exactly the same interface at all times.In addition to being customisable for users, content can also be customised for use on any device connected to the internet. This includes the likes of mobiles and tablets.
+With the web-based approach installation and maintenance becomes less complicated too. Once a new version or upgrade is installed on the host server all users can access it straight away and there is no need to upgrade the devices of each and every potential user.
+Web-based applications are typically deployed on dedicated servers, which are monitored and maintained by experienced server administrators. This is far more effective than monitoring hundreds or even thousands of clients' devices.
+This means that security is tighter and any potential breaches should be noticed far more quickly.
+In this paper, we present our research,Hospital Management Information System (HMIS), as a Web Appplication. The system is written in PHP (laravel framework), javascript, jQuery, HTML and CSS. Members will have the ability to log in within hospital. After that they will be able to do various task that are designed for them. Users are categorized in five groups, Admin, Doctor, Nurse, Pharmacist, Receptionist.This paper contains the full details of the system and its functionality in details.
+
+
+Introduction.
+
+ Hospital are the essential part of our lives, providing best medical facilities to people suffering from various ailments, which may be due to change in climatic conditions, increased work-load, emotional trauma stress etc. It is necessary for the hospitals to keep track of its day-to-day activities & records of its patients, doctors, nurses, ward boys and other staff personals that keep the hospital running smoothly & successfully. But keeping track of all the activities and their records on paper is very cumbersome and error prone. It also is very inefficient and a time-consuming process Observing the continuous increase in population and number of people visiting the hospital. Recording and maintaining all these records is highly unreliable, inefficient and error-prone. It is also not economically & technically feasible to maintain these records on paper. Thus keeping the working of the manual system as the basis of our project. We have developed an automated version of the manual system, named as “Hospital Management Information System (HMIS)”.
+
+Hospital Management Information System (HMIS) is a modern solution that enables medical facilities to overcome the biggest challenges in healthcare delivery today. HMIS enables hospitals to,
+
+1. Manage all departments, patients, and staff with ease
+2. design a system for better patient care.
+3. Take better decision with advanced reporting features
+4. reduce hospital operating costs
+5. provide top management a single point of control.
+
+HMIS is a web-native, integrated, multi-facility, and scalable platform. It can be configured to meet all the information and communication needs of the administrative, operational and clinical departments of medium to very large hospitals and networks.
+
+The project,HMIS, includes registration of patients, storing their details into the system, and also computerized billing in the pharmacy, and labs. The software has the facility to give a unique id for every patient and stores the details of every patient and the staff automatically. It includes a search facility to know the current status of each room. User can search availability of a doctor and the details of a patient using the id.
+
+The Hospital Management Information System can be entered using a username and password. It is accessible either by an administrator or receptionist and etc. Only they can manage data into the database. The data can be retrieved easily. The interface is very user-friendly. The data are well protected for personal use and makes the data processing very fast.
+
+The purpose of the project entitled as “HOSPITAL MANAGEMENT INFORMATION SYSTEM” is  to make hospital experience better than we currently have . It deals with the collection of patient’s information, diagnosis details,doctor's appointment with the patients, etc.Hospital is a place where no one willingly wants to visit but there are times when we need to
+
+Traditionally, it was done manually.  Our main focus is to make peoples life easier in the hour of need. We are working to design such a system that will reduce a lot of paperwork and save peoples time. This system is quite faster than manual system.
+
+The project has many access roles administrator panel. 
+
+Aadministrator Role can manipulate all the data like update , delete and modify . 
+They keep track of the requirements of the clients. The main functions of this panel are checking for the new clients and registering them after the complete verification of their details.
+

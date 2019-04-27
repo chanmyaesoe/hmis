@@ -1,0 +1,9 @@
+.main-header {
+	.sidebar-toggle {
+		padding:6px 15px;
+		&:hover {
+			background-color: transparent !important;
+			text-decoration: none;
+		}
+	}
+}

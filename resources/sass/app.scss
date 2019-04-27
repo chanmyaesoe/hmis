@@ -1,0 +1,29 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~admin-lte/bower_components/font-awesome/css/font-awesome.min.css';
+@import '~admin-lte/bower_components/Ionicons/css/ionicons.min.css';
+@import '~admin-lte/dist/css/AdminLTE.min.css';
+@import '~admin-lte/dist/css/skins/skin-blue.min.css';
+@import "~toastr/toastr.scss";
+
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.min.css";
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css";
+// Custom Vendor Styles
+@import 'custom';
+@import 'components/atoms';
+@import 'components/molecules';
+@import 'components/templates';
+@import 'components/vue';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}

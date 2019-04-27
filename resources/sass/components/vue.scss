@@ -1,0 +1,45 @@
+.box-container {
+    .form-item {
+        position: relative;
+        border-bottom: 1px dashed #eee;
+        color: #555;
+        padding: 20px 20px 5px;
+        text-align: left;
+        margin-bottom: 20px;
+        &:last-child { margin-bottom: 0; }
+        .remove-btn {
+            position: absolute;
+            right: 0;
+            top: 0;
+            text-decoration: none;
+            color: #cd5353;
+            outline: none !important;
+            white-space: nowrap;
+        }
+        &.skill-item {
+            .slider.slider-horizontal {
+                width: calc(100% - 62px);
+                margin: 0 14px;
+                .tooltip.top.in { opacity: 1; }
+                .slider-track {
+                    height: 4px;
+                    margin-top: -3px;
+                    .slider-selection {
+                        background-color: #009efb;
+                        background-image: -webkit-linear-gradient(top,#009efb 0,#009efb 100%);
+                        background-image: -o-linear-gradient(top,#009efb 0,#009efb 100%);
+                        background-image: linear-gradient(to bottom,#009efb 0,#009efb 100%);
+                    }
+                }
+                .slider-handle {
+                    margin-left: -10px;
+                    background-color: #007bff;
+                    background-image: -webkit-linear-gradient(top,#007bff 0,#007bff 100%);
+                    background-image: -o-linear-gradient(top,#007bff 0,#007bff 100%);
+                    background-image: linear-gradient(to bottom,#007bff 0,#007bff 100%);
+                }
+            }
+        }
+    }
+}
+.form-group .box-container { margin-bottom: 0 !important; }
